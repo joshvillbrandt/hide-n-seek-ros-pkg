@@ -1,0 +1,21 @@
+<package>
+  <description brief="hide_n_seek">
+
+     This package enables a robot to play a classic game of Hide and Seek. During the seeking portion of the game, the robot uses the POMDP implemented in this package to guide itself through a space in search of a person.
+
+  </description>
+  <author>Josh Villbrandt, Divya Sharma, Prithvi Balaram</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/hide_n_seek</url>
+  <depend package="move_base_msgs"/>
+  <depend package="actionlib"/>
+  <depend package="roscpp"/>
+  <depend package="nav_msgs"/>
+  <depend package="tf"/>
+  <depend package="visualization_msgs"/>
+  <depend package="interactive_markers"/>
+
+</package>
+
+
